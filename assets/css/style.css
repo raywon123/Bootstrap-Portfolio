@@ -17,17 +17,16 @@ h1, h2, h3 {
 /* header */
 
 header {
-  background-color: #fff; 
+  background-color: #fff;
 }
 
 .navbar-brand {
   width: 250px;
   /*height: 90px; */
- 
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 30px; 
+  font-size: 30px;
   font-weight: 700;
-  line-height: 90px; 
+  line-height: 90px;
   color: #fff;
   text-align: center;
   text-decoration: none;
@@ -84,7 +83,6 @@ h1 {
   margin-right: 25px;
 }
 
-
 /* ---------------------
 /* contact page 
 ------------------------*/
@@ -102,17 +100,15 @@ button {
 ------------------------*/
 
 .work {
-  margin: 20px 0 0 20px; 
+  margin: 20px 0 0 20px;
   padding: 20px;
-
 }
 
-
 .work img {
- /* width: 100%; */
+  /* width: 100%; */
   width: 360px;
   height: auto;
-  border: 0 none; 
+  border: 0 none;
   opacity: 0.8;
 }
 

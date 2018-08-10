@@ -139,9 +139,9 @@ button {
 
 /* Extra small devices (phones, 600px and down) */
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 320px) {
   .work h3 {
-    width: 78%;
+    width: 71%;
     line-height: 10px;
     font-size: 15px;
   }
@@ -150,9 +150,51 @@ button {
   }
 }
 
+@media only screen and (min-width: 320px) {
+  .work h3 {
+    width: 71%;
+    line-height: 10px;
+    font-size: 15px;
+  }
+  .last-pic img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 375px) {
+  .work h3 {
+    width: 75%;
+    line-height: 10px;
+    font-size: 15px;
+  }
+  .last-pic img {
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 414px) {
+  .work h3 {
+    width: 77%;
+    line-height: 10px;
+    font-size: 15px;
+  }
+  .last-pic img {
+    width: 100%;
+  }
+}
 /* Small devices (portrait tablets and large phones, 600px and up) */
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 485px) {
+  .work h3 {
+    width: 360px;
+    line-height: 15px;
+    font-size: 20px;
+  }
+  
+  .last-pic img {
+    width: 360px;
+  }
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 

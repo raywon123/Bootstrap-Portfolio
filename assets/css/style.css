@@ -126,7 +126,7 @@ button {
   position: absolute;
   bottom: 40px;
   /* width: 100%; */
-  width: 360px; 
+  width: 360px;
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
@@ -135,4 +135,47 @@ button {
   text-align: center;
   background: #4aaaa5;
   border-bottom: 0;
+}
+
+/* Extra small devices (phones, 600px and down) */
+
+@media only screen and (max-width: 500px) {
+  .work h3 {
+    width: 78%;
+    line-height: 10px;
+    font-size: 15px;
+  }
+  .last-pic img {
+    width: 100%;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+
+@media only screen and (min-width: 768px) {
+  .work h3 {
+    width: 265px;
+    line-height: 15px;
+    font-size: 20px;
+  }
+  
+  .last-pic img {
+    width: 265px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+
+@media only screen and (min-width: 992px) {
+  .work h3 {
+    width: 360px;
+    line-height: 30px;
+  }
+  .last-pic img {
+    width: 360px;
+  }
 }

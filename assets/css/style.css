@@ -20,24 +20,30 @@ header {
   background-color: #fff;
 }
 
-.navbar-brand {
+.logobox {
   width: 250px;
-  /*height: 90px; */
+  height: 90px;
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 90px;
-  color: #fff;
   text-align: center;
   text-decoration: none;
+  color: #fff;
   background-color: #4aaaa5;
 }
 
-.nav-item a {
+.logo {
+  color: #fff;
+  text-decoration: none;
+}
+
+nav a {
   padding-left: 15px;
   margin-left: 15px;
   line-height: 18px;
   color: #999;
+  text-align: center;
   text-decoration: none;
   border-left: 1px solid #efefef;
 }

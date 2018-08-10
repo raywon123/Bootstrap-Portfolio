@@ -125,8 +125,8 @@ button {
 .work h3 {
   position: absolute;
   bottom: 40px;
-  /*width: 100%; */
-  width: 360px;
+  /* width: 100%; */
+  width: 360px; 
   padding: 15px;
   margin-bottom: 0;
   font-weight: 300;
